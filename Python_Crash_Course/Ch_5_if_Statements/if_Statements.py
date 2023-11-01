@@ -128,3 +128,9 @@
 #else:
 #    print("You're an elder!")
 
+# 5-7 Favorite Fruit
+
+favorite_fruits = ["watermelon", "strawberry", "peach", "apple"]
+
+if "watermelon" in favorite_fruits:
+    print(f"You really like {favorite_fruits[0]}!")
