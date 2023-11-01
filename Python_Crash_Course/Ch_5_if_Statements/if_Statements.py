@@ -50,6 +50,12 @@
 #print(f"Your admission cost is ${price}.")
 
 
-## 
+## Testing Multiple Conditions
+
+requested_toppings = ["mushrooms", "extra cheese"]
+
+if "mushrooms" in requested_toppings:
+    print("Adding mushrooms.")
+    
 
 
