@@ -183,10 +183,15 @@
 ## TRY IT YOURSELF ##
 
 # 5-8 Hello Admin
-usernames = ["dave", "eric", "lisa", "sarah", "admin"]
-admin_greeting = "Hello, admin! Would you like to see a status report?"
+#usernames = ["dave", "eric", "lisa", "sarah", "admin"]
+#admin_greeting = "Would you like to see a status report?"
 
-for username in usernames:
-    print(f"Welcome, {username}!")
-    
+#for username in usernames:
+#    if username == "admin":
+#        print(f"Hello, {username.title()}! {admin_greeting}")
+#    else:
+#        print(f"Hello, {username.title()}! Thank you for logging in again.")
+
+## 5-9 No Users
+
 
