@@ -24,13 +24,27 @@
 #    print("Sorry, you are too young to vote.\nPlease register to vote as soon as you turn 18!")
 
 # if-elife-else Chain
-# Admission for anyone under age 4 is free.
-age = 12
-if age < 4:
-    print("Your admission cost is $0.")
-# Admission for anyone between the ages of 4 and 18 is $25
-elif age < 18:
-    print("Your admission cost is $25.")
-else:
-    print("Your admission cost is $40.")
 
+# EXAMPLE 3 #
+# Admission for anyone under age 4 is free.
+#age = 12
+#if age < 4:
+#    print("Your admission cost is $0.")
+# Admission for anyone between the ages of 4 and 18 is $25
+#elif age < 18:
+#    print("Your admission cost is $25.")
+# Admission for anyone age 18 or older is $40
+#else:
+#    print("Your admission cost is $40.")
+
+# EXAMPLE 3a #
+age = 12
+
+if age < 4:
+    price = 0
+elif age < 18:
+    price = 25
+else:
+    price = 40
+
+print(f"Your admission cost is ${price}.")
