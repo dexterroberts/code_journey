@@ -2,7 +2,7 @@
 Description: My personal journey: learning programming, automation, data analysis, and web development.
 
 # Harvard CS50P - Introduction to Programming with Python
-    - Date Started: 10/30/23
+    - Date Started: 10/15/23
     - Status: IN PROGRESS
     - Date Completed:
 
