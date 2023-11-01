@@ -6,24 +6,24 @@ Description: My personal journey: learning programming, automation, data analysi
     - Status: IN PROGRESS
     - Date Completed:
 Chapter 1: Getting Started
-    - Date Started:
-    - Status:
-    - Date Completed:
+    - Date Started: 10/30/23
+    - Status: COMPLETE
+    - Date Completed: 10/30/23
 Chapter 2: Variables and Simple Data Types
-    - Date Started:
-    - Status:
-    - Date Completed:
+    - Date Started: 10/30/23
+    - Status: COMPLETE
+    - Date Completed: 10/30/23
 Chapter 3: Introducing Lists
-    - Date Started:
-    - Status:
-    - Date Completed:
+    - Date Started: 10/30/23
+    - Status: COMPLETE
+    - Date Completed: 10/30/23
 Chapter 4: Working with Lists
-    - Date Started:
-    - Status:
-    - Date Completed:
+    - Date Started: 10/31/23
+    - Status: COMPLETE
+    - Date Completed: 10/30/23
 Chapter 5: if Statements
-    - Date Started:
-    - Status:
+    - Date Started: 10/31/23
+    - Status: IN PROGRESS
     - Date Completed:
 Chapter 6: Dictionaries
     - Date Started:
