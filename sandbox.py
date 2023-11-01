@@ -5,6 +5,6 @@
 cars = ["bmw", "honda", "audi", "mercedes", "toyota"]
 for car in cars:
     if car == "bmw":
-        print(cars.upper())
+        print(car.upper())
     else:
-        print(cars.title())
+        print(car.title())
