@@ -5,83 +5,26 @@ Description: My personal journey: learning programming, automation, data analysi
     - Date Started: 10/30/23
     - Status: IN PROGRESS
     - Date Completed:
-## Chapter 1: Getting Started
-    - Date Started: 10/30/23
-    - Status: COMPLETE
-    - Date Completed: 10/30/23
-## Chapter 2: Variables and Simple Data Types
-    - Date Started: 10/30/23
-    - Status: COMPLETE
-    - Date Completed: 10/30/23
-## Chapter 3: Introducing Lists
-    - Date Started: 10/30/23
-    - Status: COMPLETE
-    - Date Completed: 10/30/23
-## Chapter 4: Working with Lists
-    - Date Started: 10/31/23
-    - Status: COMPLETE
-    - Date Completed: 10/30/23
-## Chapter 5: if Statements
-    - Date Started: 10/31/23
-    - Status: IN PROGRESS
-    - Date Completed:
-## Chapter 6: Dictionaries
-    - Date Started:
-    - Status:
-    - Date Completed:
-## Chapter 7: User Input and while Loops
-    - Date Started:
-    - Status:
-    - Date Completed:
-## Chapter 8: Functions
-    - Date Started:
-    - Status:
-    - Date Completed:
-## Chapter 9: Classes
-    - Date Started:
-    - Status:
-    - Date Completed:
-## Chapter 10: Files and Exceptions
-    - Date Started:
-    - Status:
-    - Date Completed:
-## Chapter 11: Testing Your Code
-    - Date Started:
-    - Status:
-    - Date Completed:
-## Chapter 12: A Ship That Fires Bullets
-    - Date Started:
-    - Status:
-    - Date Completed:
-## Chapter 13: Aliens!
-    - Date Started:
-    - Status:
-    - Date Completed:
-## Chapter 14: Scoring
-    - Date Started:
-    - Status:
-    - Date Completed:
-## Chapter 15: Generating Data
-    - Date Started:
-    - Status:
-    - Date Completed:
-## Chapter 16: Downloading Data
-    - Date Started:
-    - Status:
-    - Date Completed:
-## Chapter 17: Working with APIs
-    - Date Started:
-    - Status:
-    - Date Completed:
-## Chapter 18: Getting Started with Django
-    - Date Started:
-    - Status:
-    - Date Completed:
-## Chapter 19: User Accounts
-    - Date Started:
-    - Status:
-    - Date Completed:
-## Chapter 20: Styling and Deploying an App
-    - Date Started:
-    - Status:
-    - Date Completed:
+| Section                               | Date Started | Status          | Date Completed |
+|---------------------------------------|--------------|-----------------|----------------|
+| Chapter 1: Getting Started            | 10/30/23     | COMPLETE        | 10/30/23       |
+| Chapter 2: Variables and Simple Data Types | 10/30/23     | COMPLETE        | 10/30/23       |
+| Chapter 3: Introducing Lists          | 10/30/23     | COMPLETE        | 10/30/23       |
+| Chapter 4: Working with Lists         | 10/31/23     | COMPLETE        | 10/30/23       |
+| Chapter 5: if Statements              | 10/31/23     | IN PROGRESS    |                |
+| Chapter 6: Dictionaries               |              |                 |                |
+| Chapter 7: User Input and while Loops  |              |                 |                |
+| Chapter 8: Functions                  |              |                 |                |
+| Chapter 9: Classes                    |              |                 |                |
+| Chapter 10: Files and Exceptions      |              |                 |                |
+| Chapter 11: Testing Your Code         |              |                 |                |
+| Chapter 12: A Ship That Fires Bullets |              |                 |                |
+| Chapter 13: Aliens!                   |              |                 |                |
+| Chapter 14: Scoring                   |              |                 |                |
+| Chapter 15: Generating Data           |              |                 |                |
+| Chapter 16: Downloading Data           |              |                 |                |
+| Chapter 17: Working with APIs         |              |                 |                |
+| Chapter 18: Getting Started with Django |              |                 |                |
+| Chapter 19: User Accounts             |              |                 |                |
+| Chapter 20: Styling and Deploying an App |              |                 |                |
+
