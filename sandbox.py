@@ -2,4 +2,4 @@
 #print("Hello, world!")
 
 # Create a list of cars
-cars = ["bmw", ]
+cars = ["bmw", "honda", "audi", "mercedes", "toyota"]
