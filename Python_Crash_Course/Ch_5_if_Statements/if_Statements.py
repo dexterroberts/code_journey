@@ -179,3 +179,14 @@
 #        print(f"Sorry, we don't have {requested_topping}.")
 
 #print("Finished making your pizza!")
+
+## TRY IT YOURSELF ##
+
+# 5-8 Hello Admin
+usernames = ["dave", "eric", "lisa", "sarah", "admin"]
+admin_greeting = "Hello, admin! Would you like to see a status report?"
+
+for username in usernames:
+    print(f"Welcome, {username}!")
+    
+
