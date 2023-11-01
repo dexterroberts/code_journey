@@ -1,5 +1,5 @@
 # code_journey
-My personal journey: learning programming, automation, data analysis, and web development.
+Description: My personal journey: learning programming, automation, data analysis, and web development.
 
 # Python Crash Course by Eric Matthes
     - Date Started: 10/30/23
