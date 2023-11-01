@@ -29,7 +29,7 @@ Description: My personal journey: learning programming, automation, data analysi
 | Chapter 2: Variables and Simple Data Types | 10/30/23     | COMPLETE     | 10/30/23       |
 | Chapter 3: Introducing Lists               | 10/30/23     | COMPLETE     | 10/30/23       |
 | Chapter 4: Working with Lists              | 10/31/23     | COMPLETE     | 10/30/23       |
-| Chapter 5: if Statements                   | 10/31/23     | IN PROGRESS  |                |
+| Chapter 5: if Statements                   | 10/31/23     | COMPLETE     | 11/31/23       |
 | Chapter 6: Dictionaries                    |              |              |                |
 | Chapter 7: User Input and while Loops      |              |              |                |
 | Chapter 8: Functions                       |              |              |                |
