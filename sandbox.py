@@ -14,6 +14,8 @@ cars = ["bmw", "honda", "audi", "mercedes", "toyota"]
 cars.append("jeep")
 print(cars)
 
+popped_cars = cars.pop()
 cars.pop()
+
 print(cars)
 print(popped_cars)
