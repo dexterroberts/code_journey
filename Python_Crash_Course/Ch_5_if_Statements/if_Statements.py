@@ -170,4 +170,12 @@
 
 available_toppings = ["mushrooms", "olives", "green peppers", "pepperoni", "pineapple", "extra cheese"]
 
-requested_toppings = ["mushroom", ]
+requested_toppings = ["mushroom", "french_fries", "extra cheese"]
+
+for requested_topping in requested_topping:
+    if requested_topping in available_toppings:
+        print(f"Adding "{requested_topping}.")
+    else:
+        print(f"Sorry, we don't have {requested_topping}.")
+
+print("Finished making your pizza!")
