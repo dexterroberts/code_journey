@@ -16,3 +16,4 @@ print(cars)
 
 cars.pop()
 print(cars)
+print(popped_cars)
