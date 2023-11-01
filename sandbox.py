@@ -8,3 +8,7 @@ for car in cars:
         print(car.upper())
     else:
         print(car.title())
+
+# sort cars in alphabetical order
+cars.sort()
+print(cars)
