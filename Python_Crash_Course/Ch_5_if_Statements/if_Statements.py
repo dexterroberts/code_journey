@@ -66,10 +66,17 @@
 ## TRY IT YOURSELF ##
 # 5-3 Alien Color #1
 
+#alien_color = "green"
+#if alien_color = "green":
+#    print("You just earned 5 points!")
+
+#alien_color = "blue"                    # make the if statement not pass the test
+#if alien_color = "green":
+#    print("You just earned 5 points!")
+
+# 5-4 Alien Colors #2
 alien_color = "green"
 if alien_color = "green":
     print("You just earned 5 points!")
-
-alien_color = "blue"                    # make the if statement not pass the test
-if alien_color = "green":
-    print("You just earned 5 points!")
+else:
+    print("You just earned 10 points!")
