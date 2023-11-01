@@ -130,7 +130,12 @@
 
 # 5-7 Favorite Fruit
 
-favorite_fruits = ["watermelon", "strawberry", "peach", "apple"]
+#favorite_fruits = ["watermelon", "strawberry", "peach", "apple"]
 
-if "watermelon" in favorite_fruits:
-    print(f"You really like {favorite_fruits[0]}!")
+#if "watermelon" in favorite_fruits:
+#    print(f"You really like {favorite_fruits[0]}!")
+#else:
+#    print("Looks like you don't have any watermelons!")
+
+## Using if Statements with Lists
+
