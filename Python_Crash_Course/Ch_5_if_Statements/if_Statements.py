@@ -52,15 +52,24 @@
 
 ## Testing Multiple Conditions
 
-requested_toppings = ["mushrooms", "extra cheese"]
+#requested_toppings = ["mushrooms", "extra cheese"]
 
-if "mushrooms" in requested_toppings:
-    print("Adding mushrooms.")
-elif "pepperoni" in requested_toppings:
-    print("Adding pepperoni.")
-elif "extra cheese" in requested_toppings:
-    print("Adding extra cheese")
+#if "mushrooms" in requested_toppings:
+#    print("Adding mushrooms.")
+#if "pepperoni" in requested_toppings:
+#    print("Adding pepperoni.")
+#if "extra cheese" in requested_toppings:
+#    print("Adding extra cheese")
 
-print("Finished making your pizza!")
+#print("Finished making your pizza!")
 
+## TRY IT YOURSELF ##
+# 5-3 Alien Color #1
 
+alien_color = "green"
+if alien_color = "green":
+    print("You just earned 5 points!")
+
+alien_color = "blue"                    # make the if statement not pass the test
+if alien_color = "green":
+    print("You just earned 5 points!")
