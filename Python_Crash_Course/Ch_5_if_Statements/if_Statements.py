@@ -113,4 +113,6 @@
 #    print("You just earned 15 points.\n")
 
 # 5-6 Stages of Life
+age = 2
+
 
