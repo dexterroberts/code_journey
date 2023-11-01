@@ -11,4 +11,4 @@ for car in cars:
 
 # sort cars in alphabetical order
 cars.sort()
-print(cars)
+print(cars).title()
