@@ -193,5 +193,13 @@
 #        print(f"Hello, {username.title()}! Thank you for logging in again.")
 
 ## 5-9 No Users
+#usernames = []
 
+#if usernames:
+#    for no_users in usernames:
+#        print("Nice, we have active users!")
+#else:
+#    print("We need to find some users!")
+
+## 5-10 Ordinal Numbers
 
