@@ -2,17 +2,21 @@
 Description: My personal journey: learning programming, automation, data analysis, and web development.
 
 # Harvard CS50P - Introduction to Programming with Python
-Introduction
-Functions, Variables
-Conditionals
-Loops
-Exceptions
-Libraries
-Unit Tests
-File I/O
-Regular Expressions
-Object-Oriented Programming
-Et Cetera
+    - Date Started: 10/30/23
+    - Status: IN PROGRESS
+    - Date Completed:
+
+- [x] Introduction
+- [x] Functions, Variables
+- [x] Conditionals
+- [ ] Loops
+- [ ] Exceptions
+- [ ] Libraries
+- [ ] Unit Tests
+- [ ] File I/O
+- [ ] Regular Expressions
+- [ ] Object-Oriented Programming
+- [ ] Et Cetera
 
 # Python Crash Course by Eric Matthes
     - Date Started: 10/30/23
