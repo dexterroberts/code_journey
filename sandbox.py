@@ -10,5 +10,5 @@ cars = ["bmw", "honda", "audi", "mercedes", "toyota"]
 #        print(car.title())
 
 # sort cars in alphabetical order
-cars.sort()
+
 print(f"{cars.title()}")
