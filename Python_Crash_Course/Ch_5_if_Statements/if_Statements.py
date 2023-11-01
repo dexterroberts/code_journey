@@ -76,40 +76,41 @@
 
 # 5-4 Alien Colors #2
 #alien_color = "green"
-
 #if alien_color == "green":
 #    print("You just earned 5 points!")
 #else:
 #    print("You just earned 10 points!")
 
 # 5-5 Alien Colors #3
-print("Green Alien")
-alien_color_1 = "green"
+#print("Green Alien")
+#alien_color_1 = "green"
 
-if alien_color_1 == "green":
-    print("You just earned 5 points.")
-elif alien_color_1 == "blue":
-    print("You just earned 10 points.")
-elif alient_color_1 == "red":
-    print("You just earned 15 points.\n")
+#if alien_color_1 == "green":
+#    print("You just earned 5 points.")
+#elif alien_color_1 == "blue":
+#    print("You just earned 10 points.")
+#elif alient_color_1 == "red":
+#    print("You just earned 15 points.\n")
 
-print("Blue Alien")
-alien_color_2 = "blue"
+#print("Blue Alien")
+#alien_color_2 = "blue"
 
-if alien_color_2 == "green":
-    print("You just earned 5 points.")
-elif alien_color_2 == "blue":
-    print("You just earned 10 points.")
-elif alient_color_2 == "red":
-    print("You just earned 15 points.\n")
+#if alien_color_2 == "green":
+#    print("You just earned 5 points.")
+#elif alien_color_2 == "blue":
+#    print("You just earned 10 points.")
+#elif alient_color_2 == "red":
+#    print("You just earned 15 points.\n")
 
-print("Red Alien")
-alien_color_3 = "red"
+#print("Red Alien")
+#alien_color_3 = "red"
 
-if alien_color_3 == "green":
-    print("You just earned 5 points.")
-elif alien_color_3 == "blue":
-    print("You just earned 10 points.")
-elif alient_color_3 == "red":
-    print("You just earned 15 points.\n")
+#if alien_color_3 == "green":
+#    print("You just earned 5 points.")
+#elif alien_color_3 == "blue":
+#    print("You just earned 10 points.")
+#elif alien_color_3 == "red":
+#    print("You just earned 15 points.\n")
+
+# 5-6 Stages of Life
 
