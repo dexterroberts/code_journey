@@ -7,6 +7,8 @@ Description: My personal journey: learning programming, automation, data analysi
     - Date Completed:
 
 - [x] Introduction
+    - Date Started: 10/15/23
+    - Date Completed: 10/15/23
 - [x] Functions, Variables
 - [x] Conditionals
 - [ ] Loops
