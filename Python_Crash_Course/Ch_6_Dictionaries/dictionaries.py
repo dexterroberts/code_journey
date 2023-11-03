@@ -59,7 +59,7 @@
 #del alien_0["points"]
 #print(alien_0)
 
-## A Dictionary of Similar Objects
+## A Dictionary of Similar Objects ##
 
 #favorite_languages = {
 #    "jen": "python", 
@@ -113,7 +113,7 @@
 #print(f"Dictionary: {python_definitions["dictionary"]}")
 #print(f"Pop: {python_definitions["pop"]}")
 
-## Looping Through a Dictionary
+## Looping Through a Dictionary ##
 
 #user_0 = {
 #    "user_name": "efermi",
@@ -138,7 +138,7 @@
 # !! REMEMBER: As it worked through each pair the KEY is assigned to the VARIABLE 'name' (cont'd)
 # and the VALUE is assigned to the VARIABLE 'language'
 
-## Looping Through All the Keys in a Dictionary
+## Looping Through All the Keys in a Dictionary ##
 
 #favorite_languages = {
 #    "jen": "python", 
@@ -150,20 +150,42 @@
 #for name in favorite_languages.keys():
 #    print( name.title())
 
+#favorite_languages = {
+#    "jen": "python", 
+#    "sarah": "c", 
+#    "edward": "rust", 
+#    "phil": "python"
+#    }
+
+#friends = ["phil", "sarah"]
+#for name in favorite_languages.keys():
+#    print(f"Hi {name.title()}.")
+
+#    if name in friends:
+#        language = favorite_languages[name].title()
+#        print(f"\t{name.title()}, I see you love {language}!")
+
+#if "erin" not in favorite_languages.keys():
+#    print("Erin, please take our poll!")
+
+## Looping Through a Dictionary's Keys in a Particular Order ##
+
+#favorite_languages = {
+#    "jen": "python", 
+#    "sarah": "c", 
+#    "edward": "rust", 
+#    "phil": "python"
+#    }
+
+#for name in sorted(favorite_languages.keys()):
+#    print(f"{name.title()}, thank you for taking the poll.")
+
+
+## Looping Through All Values in a Dictionary ##
+
 favorite_languages = {
     "jen": "python", 
     "sarah": "c", 
     "edward": "rust", 
     "phil": "python"
     }
-
-friends = ["phil", "sarah"]
-for name in favorite_languages.keys():
-    print(f"Hi {name.title()}.")
-
-    if name in friends:
-        language = favorite_languages[name].title()
-        print(f"\t{name.title()}, I see you love {language}!")
-
-if "erin" not in favorite_languages.keys():
-    print("Erin, please take our poll!")
