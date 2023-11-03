@@ -211,16 +211,18 @@
 ## TRY IT YOURSELF ##
 
 # 6-4 Glossary 2
-python_definitions = {
-    "variable": "a container of which a value is assigned.", 
-    "for_loop": "iterates over a sequence and executes a block of code for each element in the sequence.",
-    "list": "an ordered collection of items, allowing duplicates and mutable.",
-    "dictionary": "a collection of key-value pairs, allowing fast access to values using unique keys.",
-    "pop": "a method used to remove and return an element from a list or dictionary by its index or key."
-    }
+#python_definitions = {
+#    "variable": "a container of which a value is assigned.", 
+#    "for_loop": "iterates over a sequence and executes a block of code for each element in the sequence.",
+#   "list": "an ordered collection of items, allowing duplicates and mutable.",
+#    "dictionary": "a collection of key-value pairs, allowing fast access to values using unique keys.",
+#    "pop": "a method used to remove and return an element from a list or dictionary by its index or key."
+#    }
 
-for term, definition in python_definitions.items():
-    print(f"{term}: {definition.title()}")
+#for term, definition in python_definitions.items():
+#    print(f"{term}: {definition.title()}")
 
-python_definitions["tuple"] = "an ordered and immutable collection of items."
-print(python_definitions)
+#python_definitions["tuple"] = "an ordered and immutable collection of items."
+#print(python_definitions)
+
+## NESTING ##
