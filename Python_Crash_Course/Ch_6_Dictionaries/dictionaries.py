@@ -61,5 +61,23 @@
 
 ## A Dictionary of Similar Objects
 
-favorite_languages = {"jen": "python", "sarah": "c", "edward": "rust", "phil": "python"}
-print(favorite_languages)
+#favorite_languages = {
+#    "jen": "python", 
+#    "sarah": "c", 
+#    "edward": "rust", 
+#    "phil": "python"
+#    }
+
+#print(favorite_languages)
+
+#language = favorite_languages["sarah"].title()
+#print(f"Sarah's favorite language is {language}.")
+
+## Using get() to Access Values
+#alien_0 = {"color": "green", "speed": "medium:"}
+#print(alien_0["points"])  # KeyError: "points" - points was not assigned and you get this error
+
+#point_value = alien_0.get("points", "No point value assigned.")
+#print(point_value)
+
+
