@@ -112,3 +112,25 @@
 #print(f"List: {python_definitions["list"]}")
 #print(f"Dictionary: {python_definitions["dictionary"]}")
 #print(f"Pop: {python_definitions["pop"]}")
+
+## Looping Through a Dictionary
+
+#user_0 = {
+#    "user_name": "efermi",
+#    "first": "enrico",
+#    "last": "fermi",
+#}
+
+#for key, value in user_0.items():
+#    print(f"\nKey: {key}")
+#    print(f"Value: {value}")
+
+favorite_languages = {
+    "jen": "python", 
+    "sarah": "c", 
+    "edward": "rust", 
+    "phil": "python"
+    }
+
+for name, language in favorite_languages.items():
+    print(f"{name.title()}'s favorite language is {language.title()}.")
