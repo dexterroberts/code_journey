@@ -80,4 +80,35 @@
 #point_value = alien_0.get("points", "No point value assigned.")
 #print(point_value)
 
+## TRY IT YOURSELF ##
+# 6-1 Person
 
+#person = {"first_name": "jake", "last_name": "winters", "age": 27, "city": "jacksonville"}
+#print(f"First Name: {person['first_name'].title()}")
+#print(f"Last Name: {person['last_name'].title()}")
+#print(f"Age: {person["age"]}")
+#print(f"City: {person["city"].title()}")
+
+# 6-2 Favorite Numbers
+#favorite_number = {"jenny": 6, "sarah": 9, "max": 3, "rex": 7, "dave": 5}
+
+#print(favorite_number["dave"])
+#print(favorite_number["jenny"])
+#print(favorite_number["max"])
+#print(favorite_number["rex"])
+#print(favorite_number["sarah"])
+
+# 6-3 Glossary
+#python_definitions = {
+#    "variable": "a container of which a value is assigned.", 
+#    "for_loop": "iterates over a sequence and executes a block of code for each element in the sequence.",
+#    "list": "an ordered collection of items, allowing duplicates and mutable.",
+#    "dictionary": "a collection of key-value pairs, allowing fast access to values using unique keys.",
+#    "pop": "a method used to remove and return an element from a list or dictionary by its index or key."
+#    }
+
+#print(f"Variable: {python_definitions["variable"]}")
+#print(f"for Loop: {python_definitions["for_loop"]}")
+#print(f"List: {python_definitions["list"]}")
+#print(f"Dictionary: {python_definitions["dictionary"]}")
+#print(f"Pop: {python_definitions["pop"]}")
