@@ -32,7 +32,8 @@
 
 #print(alien_0)
 
-## Modifiying Values in a Dictionary
+## Modifiying Values in a Dictionary ##
+
 #alien_0 = {"x_position": 0, "y_position": 25, "speed": "medium"}
 #print(f"Original position: {alien_0["x_position"]}")
 
@@ -183,9 +184,43 @@
 
 ## Looping Through All Values in a Dictionary ##
 
-favorite_languages = {
-    "jen": "python", 
-    "sarah": "c", 
-    "edward": "rust", 
-    "phil": "python"
+#favorite_languages = {
+#    "jen": "python", 
+#    "sarah": "c", 
+#    "edward": "rust", 
+#    "phil": "python"
+#    }
+
+#print("The following languages have been mentioned:")
+#for language in favorite_languages.values():
+#    print(language.title())
+
+# using set() to identify unique items in the collection and builds a set from those items
+
+#favorite_languages = {
+#    "jen": "python", 
+#    "sarah": "c", 
+#    "edward": "rust", 
+#    "phil": "python"
+#    }
+
+#print("The following languages have been mentioned:")
+#for language in set(favorite_languages.values()):
+#    print(language.title())
+
+## TRY IT YOURSELF ##
+
+# 6-4 Glossary 2
+python_definitions = {
+    "variable": "a container of which a value is assigned.", 
+    "for_loop": "iterates over a sequence and executes a block of code for each element in the sequence.",
+    "list": "an ordered collection of items, allowing duplicates and mutable.",
+    "dictionary": "a collection of key-value pairs, allowing fast access to values using unique keys.",
+    "pop": "a method used to remove and return an element from a list or dictionary by its index or key."
     }
+
+for term, definition in python_definitions.items():
+    print(f"{term}: {definition.title()}")
+
+python_definitions["tuple"] = "an ordered and immutable collection of items."
+print(python_definitions)
