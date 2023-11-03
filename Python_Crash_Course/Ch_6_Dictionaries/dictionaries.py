@@ -125,6 +125,31 @@
 #    print(f"\nKey: {key}")
 #    print(f"Value: {value}")
 
+#favorite_languages = {
+#    "jen": "python", 
+#    "sarah": "c", 
+#    "edward": "rust", 
+#    "phil": "python"
+#    }
+
+#for name, language in favorite_languages.items():
+#    print(f"{name.title()}'s favorite language is {language.title()}.")
+
+# !! REMEMBER: As it worked through each pair the KEY is assigned to the VARIABLE 'name' (cont'd)
+# and the VALUE is assigned to the VARIABLE 'language'
+
+## Looping Through All the Keys in a Dictionary
+
+#favorite_languages = {
+#    "jen": "python", 
+#    "sarah": "c", 
+#    "edward": "rust", 
+#    "phil": "python"
+#    }
+
+#for name in favorite_languages.keys():
+#    print( name.title())
+
 favorite_languages = {
     "jen": "python", 
     "sarah": "c", 
@@ -132,5 +157,13 @@ favorite_languages = {
     "phil": "python"
     }
 
-for name, language in favorite_languages.items():
-    print(f"{name.title()}'s favorite language is {language.title()}.")
+friends = ["phil", "sarah"]
+for name in favorite_languages.keys():
+    print(f"Hi {name.title()}.")
+
+    if name in friends:
+        language = favorite_languages[name].title()
+        print(f"\t{name.title()}, I see you love {language}!")
+
+if "erin" not in favorite_languages.keys():
+    print("Erin, please take our poll!")
