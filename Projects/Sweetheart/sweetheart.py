@@ -37,39 +37,39 @@ class MemoryApp(QMainWindow):
         self.submit_button.clicked.connect(self.check_first_memory)
         self.layout.addWidget(self.submit_button)
 
+        self.next_button = QPushButton("Next", self)
+        self.next_button.clicked.connect(self.show_second_question)
+        self.layout.addWidget(self.next_button)
+        self.submit_button_clicked = False  # Track if the submit button is clicked
+
     def check_first_memory(self):
         user_answer = self.answer_text.toPlainText().lower()
         memory_keywords = ["wedding", "parking", "lot", "present", "gift", "late"]
 
         if any(keyword in user_answer for keyword in memory_keywords):
             self.response_label = QLabel("You remembered correctly! It's amazing how long ago that memory is.", self)
+            self.submit_button.setDisabled(True)  # Disable the submit button after correct input
+            self.submit_button.hide()  # Hide the submit button
+            self.submit_button_clicked = True
         else:
             self.response_label = QLabel("That's not quite it. Try again! Remember we were both late to an event?", self)
         self.layout.addWidget(self.response_label)
 
-        self.next_button = QPushButton("Next", self)
-        self.next_button.clicked.connect(self.show_second_question)
-        self.layout.addWidget(self.next_button)
-
     def show_second_question(self):
-        self.question_label.setText("What is your most favorite memory from the past 5+ years we've been together? Write your answer...")
+        self.question_label.setText("What is your most favorite memory from the past 5+ years we've been together?")
 
         if self.answer_text is not None:
             self.answer_text.clear()  # Clear the previous text
         self.response_label.clear()
         self.next_button.setDisabled(True)
 
-        self.answer_text.textChanged.connect(self.show_second_submit_button)
+        self.submit_button = QPushButton("Submit", self)
+        self.submit_button.clicked.connect(self.show_canned_response)
+        self.layout.addWidget(self.submit_button)
 
-    def show_second_submit_button(self):
-        if not hasattr(self, 'submit_button'):  # Only create the submit button once
-            self.submit_button = QPushButton("Submit", self)
-            self.submit_button.clicked.connect(self.show_final_message)
-            self.layout.addWidget(self.submit_button)
-
-    def show_final_message(self):
-        final_message = QLabel("I remember that memory! It's a very fond one. I love you very much, Honey.", self)
-        self.layout.addWidget(final_message)
+    def show_canned_response(self):
+        canned_response = QLabel("I love that memory! Err... well, I am programmed to say that. But ask me if I remember that memory juuuuust to make sure!", self)
+        self.layout.addWidget(canned_response)
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
