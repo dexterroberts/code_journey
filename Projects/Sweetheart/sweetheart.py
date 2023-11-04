@@ -1,11 +1,11 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QPushButton, QTextEdit, QVBoxLayout, QWidget
-from PyQt5.QtGui import QPixmap
+from PyQt5.QtGui import QPixmap, QFont
 from PyQt5.QtCore import Qt
 
 class MemoryApp(QMainWindow):
     def __init__(self):
-        super().__init__()
+        super().__init()
 
         self.setWindowTitle("Sweetheart Memory App")
         self.setGeometry(100, 100, 800, 400)
@@ -16,6 +16,8 @@ class MemoryApp(QMainWindow):
         self.layout = QVBoxLayout()
 
         self.welcome_label = QLabel("Hi, Honey! Welcome to our memory app. Are you ready to start?", self)
+        self.welcome_label.setFont(QFont("Arial", 16))  # Set font size to 16pt
+        self.welcome_label.setAlignment(Qt.AlignCenter)  # Center the label
         self.layout.addWidget(self.welcome_label)
 
         self.start_button = QPushButton("Start", self)
@@ -41,7 +43,7 @@ class MemoryApp(QMainWindow):
         self.layout.addWidget(self.submit_button)
 
         self.next_button = QPushButton("Next", self)
-        self.next_button.clicked.connect(self.show_second_question)
+        self.next_button.clicked connect(self.show_second_question)
         self.layout.addWidget(self.next_button)
         self.submit_button_clicked = False  # Track if the submit button is clicked
 
