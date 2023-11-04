@@ -1,5 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QPushButton, QTextEdit, QVBoxLayout, QWidget
+from PyQt5.QtGui import QPixmap
+from PyQt5.QtCore import Qt
 
 class MemoryApp(QMainWindow):
     def __init__(self):
@@ -13,7 +15,7 @@ class MemoryApp(QMainWindow):
 
         self.layout = QVBoxLayout()
 
-        self.welcome_label = QLabel("Hi, Honey! Welcome to our memory app. Are you ready to start?", self)
+        self.welcome_label = QLabel("Hi, Hunny! Welcome to our memory app. Are you ready to start?", self)
         self.layout.addWidget(self.welcome_label)
 
         self.start_button = QPushButton("Start", self)
@@ -70,6 +72,27 @@ class MemoryApp(QMainWindow):
     def show_canned_response(self):
         canned_response = QLabel("I love that memory! Err... well, I am programmed to say that. But ask me if I remember that memory juuuuust to make sure!", self)
         self.layout.addWidget(canned_response)
+        
+        self.next_button = QPushButton("Next", self)
+        self.next_button.clicked.connect(self.show_image)
+        self.layout.addWidget(self.next_button)
+
+    def show_image(self):
+        self.question_label.setText("Imagine all the memories we'll make with our little family we are growing!")
+
+        self.pixmap = QPixmap("family.jpg")
+        self.image_label = QLabel(self)
+        self.image_label.setPixmap(self.pixmap)
+        self.image_label.setAlignment(Qt.AlignCenter)
+        self.image_label.setFixedSize(500, 700)
+        self.layout.addWidget(self.image_label)
+
+        self.next_button.setText("The End")
+        self.next_button.clicked.connect(self.close_app)
+        self.layout.addWidget(self.next_button)
+
+    def close_app(self):
+        self.close()
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
