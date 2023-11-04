@@ -50,7 +50,6 @@ class MemoryApp(QMainWindow):
         self.next_button = QPushButton("Next", self)
         self.next_button.clicked.connect(self.show_second_question)
         self.layout.addWidget(self.next_button)
-        self.submit_button.setDisabled(True)  # Disable the submit button after use
 
     def show_second_question(self):
         self.question_label.setText("What is your most favorite memory from the past 5+ years we've been together? Write your answer...")
