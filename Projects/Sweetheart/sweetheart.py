@@ -1,6 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QPushButton, QTextEdit, QVBoxLayout, QWidget
 from PyQt5.QtGui import QPixmap
+from PyQt5.QtCore import Qt
 
 class MemoryApp(QMainWindow):
     def __init__(self):
@@ -14,7 +15,7 @@ class MemoryApp(QMainWindow):
 
         self.layout = QVBoxLayout()
 
-        self.welcome_label = QLabel("Hi, Hunny! Welcome to our memory app. Are you ready to start?", self)
+        self.welcome_label = QLabel("Hi, Honey! Welcome to our memory app. Are you ready to start?", self)
         self.layout.addWidget(self.welcome_label)
 
         self.start_button = QPushButton("Start", self)
@@ -26,6 +27,7 @@ class MemoryApp(QMainWindow):
 
     def show_first_question(self):
         self.start_button.setDisabled(True)
+        self.welcome_label.hide()  # Hide the welcome label
 
         self.question_label = QLabel("When was the very first time we met? Write your answer...", self)
         self.layout.addWidget(self.question_label)
@@ -81,7 +83,7 @@ class MemoryApp(QMainWindow):
 
         self.pixmap = QPixmap("family.jpg")
         self.image_label = QLabel(self)
-        self.image_label.setPixmap(self.pixmap)
+        self.image_label.setPixmap(self.pixmap.scaled(500, 700, Qt.KeepAspectRatio))  # Scale the image while maintaining aspect ratio
         self.layout.addWidget(self.image_label)
 
         self.next_button.setText("The End")
