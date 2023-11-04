@@ -21,6 +21,7 @@ class MemoryApp(QMainWindow):
         self.layout.addWidget(self.start_button)
 
         self.central_widget.setLayout(self.layout)
+        self.answer_text = None  # Initialize answer_text as None
 
     def show_first_question(self):
         self.start_button.setDisabled(True)
@@ -30,16 +31,11 @@ class MemoryApp(QMainWindow):
 
         self.answer_text = QTextEdit(self)
         self.answer_text.setPlaceholderText("Type your answer here...")
-        self.answer_text.textChanged.connect(self.show_submit_button)
         self.layout.addWidget(self.answer_text)
 
         self.submit_button = QPushButton("Submit", self)
         self.submit_button.clicked.connect(self.check_first_memory)
-        self.submit_button.setDisabled(True)
         self.layout.addWidget(self.submit_button)
-
-    def show_submit_button(self):
-        self.submit_button.setDisabled(False)
 
     def check_first_memory(self):
         user_answer = self.answer_text.toPlainText().lower()
@@ -54,20 +50,23 @@ class MemoryApp(QMainWindow):
         self.next_button = QPushButton("Next", self)
         self.next_button.clicked.connect(self.show_second_question)
         self.layout.addWidget(self.next_button)
+        self.submit_button.setDisabled(True)  # Disable the submit button after use
 
     def show_second_question(self):
         self.question_label.setText("What is your most favorite memory from the past 5+ years we've been together? Write your answer...")
 
-        self.answer_text.clear()
+        if self.answer_text is not None:
+            self.answer_text.clear()  # Clear the previous text
         self.response_label.clear()
         self.next_button.setDisabled(True)
 
         self.answer_text.textChanged.connect(self.show_second_submit_button)
 
     def show_second_submit_button(self):
-        self.submit_button = QPushButton("Submit", self)
-        self.submit_button.clicked.connect(self.show_final_message)
-        self.layout.addWidget(self.submit_button)
+        if not hasattr(self, 'submit_button'):  # Only create the submit button once
+            self.submit_button = QPushButton("Submit", self)
+            self.submit_button.clicked.connect(self.show_final_message)
+            self.layout.addWidget(self.submit_button)
 
     def show_final_message(self):
         final_message = QLabel("I remember that memory! It's a very fond one. I love you very much, Honey.", self)
