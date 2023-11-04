@@ -1,7 +1,6 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QPushButton, QTextEdit, QVBoxLayout, QWidget
 from PyQt5.QtGui import QPixmap
-from PyQt5.QtCore import Qt
 
 class MemoryApp(QMainWindow):
     def __init__(self):
@@ -83,8 +82,6 @@ class MemoryApp(QMainWindow):
         self.pixmap = QPixmap("family.jpg")
         self.image_label = QLabel(self)
         self.image_label.setPixmap(self.pixmap)
-        self.image_label.setAlignment(Qt.AlignCenter)
-        self.image_label.setFixedSize(500, 700)
         self.layout.addWidget(self.image_label)
 
         self.next_button.setText("The End")
