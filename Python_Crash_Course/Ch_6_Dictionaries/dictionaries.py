@@ -307,14 +307,91 @@
 # PERSONAL SANDBOX EXAMPLE
 
 # list employees and employee emails
-employee_list = {
-    "joey": ["joey@company.com", "joey@personal.com"],
-    "sam": ["sam@company.com", "sam@personal.com"],
-    "lisa": ["lisa@company.com", "lisa@personal.com"],
-    "pam": ["pam@company.com", "pam@personal.com"],
-    }
+#employee_list = {
+#    "joey": ["joey@company.com", "joey@personal.com"],
+#    "sam": ["sam@company.com", "sam@personal.com"],
+#    "lisa": ["lisa@company.com", "lisa@personal.com"],
+#    "pam": ["pam@company.com", "pam@personal.com"],
+#    }
 
-for employee, emails in employee_list.items():
-    print(f"\n{employee.title()} emails are:")
-    for email in emails:
-        print(f"\t{email}")
+#for employee, emails in employee_list.items():
+#    print(f"\n{employee.title()} emails are:")
+#    for email in emails:
+#        print(f"\t{email}")
+
+## A Dictionary in a Dictionary
+
+#users = {
+#    "aeinstein": {
+#        "first": "albert",
+#        "last": "einstein",
+#        "location": "princeton",
+#        },
+
+#    "mcurie": {
+#        "first": "marie",
+#        "last": "curie",
+#        "location": "paris",
+#        },
+
+#}
+
+#for username, user_info in users.items():
+#    print(f"\nUsername: {username}")
+#    full_name = f"{user_info["first"]} {user_info["last"]}"
+#    location = user_info["location"]
+
+#    print(f"\tFull name: {full_name.title()}")
+#    print(f"\tLocation: {location.title()}")
+
+## TRY IT YOURSELF ##
+
+# 6-7 People.
+
+#person_1 = {
+#    "first_name": "jake", 
+#    "last_name": "winters", 
+#    "age": 27, 
+#    "city": "jacksonville",
+#    }
+
+#person_2 = {
+#    "first_name": "eric",
+#    "last_name": "stevenson",
+#    "age": 24,
+#    "city": "memphis",
+#}
+
+#person_3 = {
+#    "first_name": "hannah",
+#    "last_name": "cho",
+#    "age": 26,
+#    "city": "dallas",
+#}
+
+#people = [person_1, person_2, person_3]
+
+#for person in people:
+#    print(person)
+
+## 6-8 Pets
+
+#pet_1 = {
+#    "animal": "cat",
+#    "owner": "james",
+#    }
+
+#pet_2 = {
+#    "animal": "dog",
+#    "owner": "sarah",
+#    }
+
+#pet_3 = {
+#    "animal": "bird",
+#    "owner": "sam",
+#    }
+
+#pets = [pet_1, pet_2, pet_3]
+
+#for pet in pets:
+#    print(pet)
