@@ -276,6 +276,7 @@
 
 # A List in a Dictionary
 
+# Ordering pizza example
 # Store information abouta pizza being ordered
 #pizza = {
 #    "crust": "thick",
@@ -289,3 +290,31 @@
 #for topping in pizza["toppings"]:
 #    print(f"\t{topping}")
 
+# Favorite languages example
+
+#favorite_languages = {
+#    "jen": ["python", "rust"],
+#    "sarah": ["c"],
+#    "edward": ["rust", "go"],
+#    "phil": ["python", "haskell"], 
+#    }
+
+#for name, languages in favorite_languages.items():
+#    print(f"\n{name.title()}'s favorite languages are:")
+#    for language in languages:
+#        print(f"\t{language.title()}")
+
+# PERSONAL SANDBOX EXAMPLE
+
+# list employees and employee emails
+employee_list = {
+    "joey": ["joey@company.com", "joey@personal.com"],
+    "sam": ["sam@company.com", "sam@personal.com"],
+    "lisa": ["lisa@company.com", "lisa@personal.com"],
+    "pam": ["pam@company.com", "pam@personal.com"],
+    }
+
+for employee, emails in employee_list.items():
+    print(f"\n{employee.title()} emails are:")
+    for email in emails:
+        print(f"\t{email}")
