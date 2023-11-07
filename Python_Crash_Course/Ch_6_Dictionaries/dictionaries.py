@@ -376,22 +376,22 @@
 
 ## 6-8 Pets
 
-#pet_1 = {
-#    "animal": "cat",
-#    "owner": "james",
-#    }
+pet_1 = {
+    "animal": "cat",
+    "owner": "james",
+    }
 
-#pet_2 = {
-#    "animal": "dog",
-#    "owner": "sarah",
-#    }
+pet_2 = {
+    "animal": "dog",
+    "owner": "sarah",
+    }
 
-#pet_3 = {
-#    "animal": "bird",
-#    "owner": "sam",
-#    }
+pet_3 = {
+    "animal": "bird",
+    "owner": "sam",
+    }
 
-#pets = [pet_1, pet_2, pet_3]
+pets = [pet_1, pet_2, pet_3]
 
-#for pet in pets:
-#    print(pet)
+for pet in pets:
+    print(pet)
