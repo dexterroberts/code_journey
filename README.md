@@ -60,7 +60,7 @@ Description: My personal journey: learning programming, automation, data analysi
 - [x] Chapter 5: if Statements
     - Date Started: 10/31/23
     - Date Completed: 11/01/23
-- [ ] Chapter 6: Dictionaries
+- [x] Chapter 6: Dictionaries
     - Date Started: 11/01/23
     - Date Completed: 
 - [ ] Chapter 7: User Input and while Loops
