@@ -20,5 +20,6 @@ users = [user, user_1]
 
 print(users)
 
-for hobbies, hobby in user_1 and user:
-    print(hobby)
+for user_data in users:
+    for hobby in user_data["hobbies"]:
+        print(hobby)
