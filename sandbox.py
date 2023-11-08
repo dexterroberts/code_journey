@@ -19,3 +19,6 @@ user_1 = {
 users = [user, user_1]
 
 print(users)
+
+for hobbies, hobby in user_1 and user:
+    print(hobby)
