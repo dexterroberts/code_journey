@@ -9,10 +9,26 @@ username = input("Welcome to the text-based game, 'Sandbox!'\n"
 print(f"Hi {username}, let's get started!"\n\n)
 
 # Have user choose from 3 player classes
-player_class_warrior = {
-    "description" = "The Warrior class has sufficient average HEALTH POINTS (HP) and high ATTACK (ATK) points but slightly lower DEFENSE (DEF) points.",
-    "hp": "300",
-    "atk": "500",
-    "def": "200", 
+knight = {
+    "description" = "Strong defender, balanced fighter with good health.",
+    "hp": "400",
+    "atk": "250",
+    "def": "350", 
 }
+
+rogue = {
+    "description" = "Agile, high attacker with lower defense but moderate health.",
+    "hp": "400",
+    "atk": "250",
+    "def": "350",
+}
+
+wizard = {
+    "description" = "Wizard: Powerful spellcaster, fragile, but deals massive damage with spells.",
+    "hp": "400",
+    "atk": "250",
+    "def": "350",
+}
+
+player_classes = [knight, ]
 
