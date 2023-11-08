@@ -18,8 +18,13 @@ user_1 = {
 
 users = [user, user_1]
 
-print(users)
+unique_hobbies = set()
 
 for user_data in users:
-    for hobby in user_data["hobbies"]:
-        print(hobby)
+    unique_hobbies.update(user_data["hobbies"])
+
+unique_hobbies_list = list(unique_hobbies)
+
+formatted_hobbies = ", ".join(unique_hobbies_list)
+
+print(f"Unique Hobbies: {formatted_hobbies.title()}")
