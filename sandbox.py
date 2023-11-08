@@ -1,10 +1,21 @@
-# Print 'Hello, world!"
-#print("Hello, world!")
+## PRACTICE ##
 
-# Create a list of cars
-cars = ["bmw", "honda", "audi", "mercedes", "toyota"]
-for car in cars:
-    if car == "bmw":
-        print(car.upper())
-    else:
-        print(car.title())
+# create a dictionary
+
+user = {
+    "first_name": "jack",
+    "last_name": "robinson",
+    "username": "jrob",
+    "hobbies": ["baseball", "hiking", "gym"]
+    }
+
+user_1 = {
+    "first name": "sara",
+    "last_name": "taylor",
+    "username": "saratay",
+    "hobbies": ["photography", "baking", "hiking"]
+    }
+
+users = [user, user_1]
+
+print(users)
