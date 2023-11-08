@@ -34,12 +34,18 @@ player_classes = [
 ]
 
 # Prompt user to choose a player class
-
 print("Choose a player class:")
-for player_class in player_classes:
-    print(f"{player_class['name']}:")
-    print(f"   Description: {player_class['description']}")
-    print(f"   HP: {player_class['HP']}")
-    print(f"   ATK: {player_class['ATK']}")
-    print(f"   DEF: {player_class['DEF']}")
-    print()
+for index, player_class in enumerate(player_classes):
+    print(f"{index + 1}: {player_class['name']}")
+
+# Return player class
+choice = int(input("Enter the number of your choice: ")) - 1
+
+if 0 <= choice < len(player_classes):
+    selected_class = player_classes[choice]
+    print(f"You have chosen {selected_class['name']} class.")
+else:
+    print("Invalid choice. Please select a valid player class.")
+
+# Start journey
+if 
