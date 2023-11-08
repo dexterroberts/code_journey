@@ -8,7 +8,7 @@ username = input("Welcome to the text-based game, 'Sandbox!'\n"
 
 print(f"Hi {username}, let's get started!\n\n")
 
-# Have user choose from 3 player classes
+# Set up 3 player classes
 knight = {
     "description": "Strong defender, balanced fighter with good health.",
     "hp": "400",
@@ -32,4 +32,10 @@ wizard = {
 
 player_classes = [knight, rogue, wizard]
 
+# Prompt user to choose a player class
+print("Choose a player class:")
+for player_class in player_classes: 
+    print(player_class)
+
+user_player_class = input("Choose a player class:")
 
