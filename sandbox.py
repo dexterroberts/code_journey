@@ -30,5 +30,7 @@ wizard = {
     "def": "350",
 }
 
-player_classes = [knight, ]
+player_classes = [knight, rogue, wizard]
+
+print(player_classes)
 
