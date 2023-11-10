@@ -48,4 +48,3 @@ else:
     print("Invalid choice. Please select a valid player class.")
 
 # Start journey
-if choice == 1
