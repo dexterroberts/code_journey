@@ -16,5 +16,4 @@ while message != 'quit':
     message = input(prompt)
 
 if message == 'quit':
-    print("\nThanks for playing!")
-
+    print("\nThanks for playing!!!")
