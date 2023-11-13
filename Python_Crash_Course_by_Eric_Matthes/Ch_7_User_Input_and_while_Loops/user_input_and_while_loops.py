@@ -87,6 +87,8 @@
     # - Use a break statement to exit the loop when the user enters a 'quit' value
 
 # 7-7 Infinity: Write a loop that nevers ends and run it.
-x = 1
-while x <= 5:
-    print(x)
+#x = 1
+#while x <= 5:
+#    print(x)
+
+## Using a while Loop with Lists and Dictionaries
