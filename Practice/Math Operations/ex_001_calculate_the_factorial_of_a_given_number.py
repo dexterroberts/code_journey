@@ -11,8 +11,13 @@ def factorial(n):
         # Recursive case: n! = n * (n-1)!
         return n * factorial(n-1)
 
-# Test the function with a specific number
-number = 5
+# Take user input for the number
+user_input = input("Enter a number to find its factorial: ")
+
+# Convert the user input to an integer
+number = int(user_input)
+
+# Calculate the factorial
 result = factorial(number)
 
 # Print the result
