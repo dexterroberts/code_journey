@@ -30,5 +30,14 @@
 #    else: print(f"I'd love to go to {city.title()}!")
 
 # Using continue in a Loop
-current_number = 0
-while current_number
+
+# print odd numbers that are less than 10
+#current_number = 0
+#while current_number < 10:
+#    current_number += 1
+#    if current_number % 2 == 0:
+#        continue
+
+#    print(current_number)
+
+# Avoiding Infinite Loops
