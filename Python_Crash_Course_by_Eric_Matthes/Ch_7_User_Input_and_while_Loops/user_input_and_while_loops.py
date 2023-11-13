@@ -63,21 +63,22 @@
 # over age 12, the ticket is $15. Write a loop in which you ask users their age, and then tell them the cost of their movie ticket.
 
 # prompt user to input age
-age_prompt = "\nPlease enter your age:"
-age_prompt += "\n(Enter 'quit' when you are finished). "
+#age_prompt = "\nPlease enter your age:"
+#age_prompt += "\n(Enter 'quit' when you are finished). "
 
-while True:
-    user_input = input(age_prompt)
+#while True:
+#    user_input = input(age_prompt)
 
-    if user_input.lower() == 'quit':
-        break
+#    if user_input.lower() == 'quit':
+#        break
 
-    age = int(user_input)
+#   age = int(user_input)
 
-    if age < 3:
-        print("Your ticket is free.")
-    elif 3 <= age <= 12:
-        print("Your ticket is $10.")
-    else:
-        print("Your ticket is $15.")
+#    if age < 3:
+#        print("Your ticket is free.")
+#    elif 3 <= age <= 12:
+#        print("Your ticket is $10.")
+#    else:
+#        print("Your ticket is $15.")
 
+# 7-6 Three Exits
