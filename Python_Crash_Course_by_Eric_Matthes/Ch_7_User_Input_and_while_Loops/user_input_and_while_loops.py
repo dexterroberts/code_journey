@@ -29,3 +29,6 @@
 #        break
 #    else: print(f"I'd love to go to {city.title()}!")
 
+# Using continue in a Loop
+current_number = 0
+while current_number
