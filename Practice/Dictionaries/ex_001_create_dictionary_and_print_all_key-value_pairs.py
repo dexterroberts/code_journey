@@ -10,4 +10,4 @@ person = {
     }
 
 for key, value in person.items():
-    print(key, value)
+    print(f"{key.title()}: {value.title()}")
