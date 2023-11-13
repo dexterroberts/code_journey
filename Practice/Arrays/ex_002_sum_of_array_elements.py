@@ -4,6 +4,8 @@
 
 num_list = [1, 5, 13, 7, 24, 40]
 
-for num in num_list:
-    num = sum[0:]
-    print(num)
+# Calculate the sum of all elements in the list
+sum_of_elements = sum(num_list)
+
+# Print the result
+print("The sum of all elements in the array is:", sum_of_elements)
